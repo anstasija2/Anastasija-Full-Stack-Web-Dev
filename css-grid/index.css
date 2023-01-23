@@ -1,0 +1,65 @@
+.cube-main{
+    width: 200px;
+    background-color: aquamarine;
+    height: 200px;
+    /* margin: 20px; */
+}
+
+.main-div{
+    width: 100vw;
+    border: 5px solid red ;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    margin: -10px;
+}
+
+@media screen and (max-width: 500px) { 
+    .main-div {
+        background-color: red;
+    }
+}
+@media screen and (min-width: 501px) { 
+    .main-div {
+        background-color: green;
+    }
+}
+@media screen and (min-width: 801px) { 
+    .main-div {
+        background-color: yellow;
+    }
+}
+
+
+
+/* @media screen and (min-width: 300px) {
+    .main-div {
+        grid-template-columns: repeat(1 , 100px);
+        grid-gap: 50px;
+        text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 550px) {
+    .main-div {
+        grid-template-columns: repeat(2 , 100px);
+        text-align: center;
+        gap: 150px;
+    }
+  }
+
+  @media screen and (min-width: 850px) {
+    .main-div {
+        grid-template-columns: repeat(4 , 100px);
+        text-align: center;
+        gap: 150px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .main-div {
+        grid-template-columns: repeat(5 , 200px); 
+        text-align: center;
+        gap: 20px;
+    }
+  } */
