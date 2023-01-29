@@ -1,0 +1,33 @@
+
+.grid-card{
+    border: 3px solid red ;
+    flex: 30%;
+    /* width: 150px; */
+    /* height: 150px ;
+    margin: 10px;
+     */
+    
+}
+
+.container{
+    display: flex;
+
+    /* grid-template-columns: auto auto; */
+    
+}
+
+
+/* @media only screen and (min-width: 500px) {
+    .container{
+        grid-template-columns: auto auto auto;
+    }
+
+  }
+
+@media only screen and (min-width: 850px) {
+    .container{
+        grid-template-columns: auto auto auto auto ;
+    }
+
+  } */
+  
